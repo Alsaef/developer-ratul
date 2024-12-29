@@ -20,7 +20,7 @@ export const metadata = {
   description:
     "AL SAEF RATUL · Web Developer (Frontend-React.JS) · 1+ year in Web Application Development, Coding, Programming, Testing, Data Management, Project Management.",
   openGraph: {
-    url: "example.com",
+    url: "https://developer-ratul.vercel.app/",
     type: "website",
     title: "AL SAEF RATUL",
     description:
