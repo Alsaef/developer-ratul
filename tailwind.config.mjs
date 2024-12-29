@@ -1,5 +1,5 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+import { keepTheme } from "keep-react/keepTheme";
+const config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,3 +15,5 @@ export default {
   },
   plugins: [],
 };
+
+export default keepTheme(config);
